@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PickerCountry_Tests' do
+  pod 'PickerCountry', :path => '../'
+  
+  
+end
