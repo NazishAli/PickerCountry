@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HelpDeskViewController.h"
 
 @interface DeviceLibrary : NSObject
 
@@ -14,8 +15,5 @@
 -(float)setFont:(float)fontSize;
 -(float)setWidth:(float)width;
 -(float)setHeight:(float)height;
-
-- (NSDictionary*)countryCodePickerDictionary;
-- (NSMutableArray*)countrycodepickerarray;
-
+-(HelpDeskViewController *)callHelpDeskFunction;
 @end
