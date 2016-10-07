@@ -1,6 +1,0 @@
-framework module FrameworkUI {
-  umbrella header "FrameworkUI.h"
-
-  export *
-  module * { export * }
-}
