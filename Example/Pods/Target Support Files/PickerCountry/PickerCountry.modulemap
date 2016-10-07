@@ -1,0 +1,6 @@
+framework module PickerCountry {
+  umbrella header "PickerCountry-umbrella.h"
+
+  export *
+  module * { export * }
+}

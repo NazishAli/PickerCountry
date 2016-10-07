@@ -1,0 +1,16 @@
+PODS:
+  - PickerCountry (0.1.0)
+
+DEPENDENCIES:
+  - PickerCountry (from `../`)
+
+EXTERNAL SOURCES:
+  PickerCountry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PickerCountry: dffadd0fc6bc04c15e36c2572e0f77e0b285c6f0
+
+PODFILE CHECKSUM: 333280f45c8e0bca5144a57fcf50fd592a91a97d
+
+COCOAPODS: 1.1.0.rc.2
