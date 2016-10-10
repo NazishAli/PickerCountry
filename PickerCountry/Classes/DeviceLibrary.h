@@ -15,4 +15,7 @@
 -(float)setWidth:(float)width;
 -(float)setHeight:(float)height;
 
+- (NSDictionary*)countryCodePickerDictionary;
+- (NSMutableArray*)countrycodepickerarray;
+
 @end
