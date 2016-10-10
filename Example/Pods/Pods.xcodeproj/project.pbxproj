@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		56F1A40C711B1BDD82EF052FF473C386 /* Pods-PickerCountry_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2A677BAA5AA977ECBB8BF6C019B4F9 /* Pods-PickerCountry_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DAC514757A9DE09D92C3A298EF296F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		7E7CBAB01DA7DE6C00E207B9 /* FrameWork1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CBAAF1DA7DE6C00E207B9 /* FrameWork1.framework */; };
+		7EF269121DAB64B200009B95 /* DeviceLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF269101DAB64B200009B95 /* DeviceLibrary.h */; };
+		7EF269131DAB64B200009B95 /* DeviceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF269111DAB64B200009B95 /* DeviceLibrary.m */; };
 		838F0E002B64ACBC2B5F6FC1F219AF5C /* PickerCountry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 148FF94581F6AD1ABA851D32C610F25C /* PickerCountry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D9C2D37CD7A89B3F38F6D42A3711B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		A1B061F5BD8F25AFEFA9CDD8C2516FBC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E4BFED6290FF85EFE63F2327298E3 /* ReplaceMe.m */; };
@@ -37,7 +38,8 @@
 		5C5596F079B3CC153E7FB3CC179CB4F6 /* Pods-PickerCountry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerCountry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FD2573B04B2BFBCA0DBF524BEA13FEE /* Pods-PickerCountry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickerCountry_Tests-dummy.m"; sourceTree = "<group>"; };
 		70FD8BA38D3933CF2CB34DF9A8DF997A /* PickerCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickerCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E7CBAAF1DA7DE6C00E207B9 /* FrameWork1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameWork1.framework; sourceTree = "<group>"; };
+		7EF269101DAB64B200009B95 /* DeviceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceLibrary.h; sourceTree = "<group>"; };
+		7EF269111DAB64B200009B95 /* DeviceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceLibrary.m; sourceTree = "<group>"; };
 		8A2A677BAA5AA977ECBB8BF6C019B4F9 /* Pods-PickerCountry_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerCountry_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2641EA24CAEA4ABDC9E3938F2760690 /* Pods-PickerCountry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PickerCountry_Tests.modulemap"; sourceTree = "<group>"; };
@@ -66,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D9C2D37CD7A89B3F38F6D42A3711B7D /* Foundation.framework in Frameworks */,
-				7E7CBAB01DA7DE6C00E207B9 /* FrameWork1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +77,8 @@
 		17300E01C012A1573D394DC2E1901457 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7EF269101DAB64B200009B95 /* DeviceLibrary.h */,
+				7EF269111DAB64B200009B95 /* DeviceLibrary.m */,
 				C21E4BFED6290FF85EFE63F2327298E3 /* ReplaceMe.m */,
 			);
 			path = Classes;
@@ -141,7 +144,6 @@
 		80839694B1A719F20C66AA802FE2A085 /* PickerCountry */ = {
 			isa = PBXGroup;
 			children = (
-				7E7CBAAF1DA7DE6C00E207B9 /* FrameWork1.framework */,
 				7C0D0018FDDF2C35EC09AF26980C603F /* PickerCountry */,
 				7A8D772FB91FD9B0BB64AA6891F4BC50 /* Support Files */,
 			);
@@ -199,6 +201,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF269121DAB64B200009B95 /* DeviceLibrary.h in Headers */,
 				838F0E002B64ACBC2B5F6FC1F219AF5C /* PickerCountry-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E36DAFFB9C7647FF118F4E38D39E8B /* PickerCountry-dummy.m in Sources */,
+				7EF269131DAB64B200009B95 /* DeviceLibrary.m in Sources */,
 				A1B061F5BD8F25AFEFA9CDD8C2516FBC /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
