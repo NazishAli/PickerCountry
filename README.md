@@ -11,6 +11,33 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+    PickerCountry for iOS supports iOS 8.x, iOS 9.x and iOS 10
+
+## Steps to get started
+
+import PickerCountry 
+
+Button on which you want to create code picker, add the code
+
+func buttonAction(sendr : UIButton)  {
+
+    let vc = CodeViewController() //change this to your class name
+    self.presentViewController(vc, animated: true, completion: nil)
+
+//  let vc = Count
+}
+
+add the notification center add observer
+
+ NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(YourController.countrySelectionFunction), name: "SelectCountry", object: nil)
+
+ func countrySelectionFunction(sender : NSNotification)  {
+
+        print(sender.userInfo)
+}
+
+
+
 ## Installation
 
 PickerCountry is available through [CocoaPods](http://cocoapods.org). PickerCountry for iOS supports iOS 8.x, iOS 9.x and iOS 10. To install
