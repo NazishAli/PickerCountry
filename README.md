@@ -13,16 +13,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-PickerCountry is available through [CocoaPods](http://cocoapods.org). To install
+PickerCountry is available through [CocoaPods](http://cocoapods.org). PickerCountry for iOS supports iOS 8.x, iOS 9.x and iOS 10. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PickerCountry"
+pod 'PickerCountry'
 ```
 
 ## Author
 
-Nazish Ali, nazish.ali@quickli.com
+Nazish Ali, nazishali6@gmail.com
 
 ## License
 
