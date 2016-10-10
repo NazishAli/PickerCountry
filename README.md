@@ -17,6 +17,9 @@ PickerCountry is available through [CocoaPods](http://cocoapods.org). PickerCoun
 it, simply add the following line to your Podfile:
 
 ```ruby
+# Comment this line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+
 pod 'PickerCountry'
 ```
 
