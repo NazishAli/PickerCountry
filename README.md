@@ -15,27 +15,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Steps to get started
 
+```ruby
 import PickerCountry 
 
 Button on which you want to create code picker, add the code
 
+
 func buttonAction(sendr : UIButton)  {
-
-    let vc = CodeViewController() //change this to your class name
-    self.presentViewController(vc, animated: true, completion: nil)
-
-//  let vc = Count
+     let vc = CodeViewController() 
+     self.presentViewController(vc, animated: true, completion: nil)
 }
 
 add the notification center add observer
 
- NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(YourController.countrySelectionFunction), name: "SelectCountry", object: nil)
+ 
+NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(YourController.countrySelectionFunction), name: "SelectCountry", object: nil)
 
- func countrySelectionFunction(sender : NSNotification)  {
-
-        print(sender.userInfo)
+func countrySelectionFunction(sender : NSNotification)  {
+         print(sender.userInfo)
 }
-
+```
 
 
 ## Installation
